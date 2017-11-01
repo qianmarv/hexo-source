@@ -87,8 +87,9 @@ keywords:
 
 
 org:
+  clean_cache: true
   emacs: 'C:\Tools\emacs\bin\emacs.exe'
-  common: |
-    #+OPTIONS: toc:nil num:nil
-    #+BIND: org-html-postamble \"Last Update: %C.</br>\"
   cachedir: './hexo-org-cache/'
+  common: |
+    #+OPTIONS: toc:nil num:nil html-postamble:nil
+    #+BIND: org-html-postamble \"Last Update: %C.</br>\"
