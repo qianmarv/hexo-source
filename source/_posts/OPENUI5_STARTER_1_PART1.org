@@ -1,12 +1,11 @@
 #+TITLE: OPEN(SAP) UI5 学习入门系列之一：扫盲与热身（上）
 #+AUTHOR: QIANMARV
 #+DATE: 2015-07-23
+#+CATEGORIES: 技术
+#+TAGS: sap ui5
 #+LAYOUT: post
 
 什么是SAP Fiori？
-Welcome to [[https://github.com/coldnew/hexo-renderer-org][coldnew/hexo-renderer-org]]!
-
-#+HTML: <!-- more -->
 
 * 扫盲
   - 什么是SAP Fiori？

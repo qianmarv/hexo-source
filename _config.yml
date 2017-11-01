@@ -85,11 +85,13 @@ keywords:
   - ui5
   - tech
 
-
 org:
   clean_cache: true
-  emacs: 'C:\Tools\emacs\bin\emacs.exe'
+  htmlize: false
+  emacs:
+    win32: 'C:\Tools\emacs\bin\emacs.exe'
+    darwin: '/Applications/Emacs.app/Contents/MacOS/Emacs'
   cachedir: './hexo-org-cache/'
   common: |
-    #+OPTIONS: toc:nil num:nil html-postamble:nil
+    #+OPTIONS: toc:nil num:nil
     #+BIND: org-html-postamble \"Last Update: %C.</br>\"
