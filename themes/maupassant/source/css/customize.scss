@@ -1,0 +1,15 @@
+pre.example{
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    overflow: auto;
+    margin: 1.2em;
+    background-color: #eee;
+    font-family: Consolas !important;
+}
+
+p {
+    code{
+        font-family: Consolas !important;
+    }
+}
