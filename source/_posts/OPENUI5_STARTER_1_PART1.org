@@ -1,4 +1,4 @@
-#+TITLE: OPEN(SAP) UI5 学习入门系列之一：扫盲与热身（上）
+#+TITLE: UI5入门系列之一：扫盲与热身（上）
 #+AUTHOR: QIANMARV
 #+DATE: 2015-07-23
 #+CATEGORIES: 技术
@@ -6,6 +6,7 @@
 #+LAYOUT: post
 
 什么是SAP Fiori？
+了解SAP UI5必须要从SAP Fiori开始，两者概念经常被混淆，而两者也确实有着非常紧密的关系。
 
 * 扫盲
   - 什么是SAP Fiori？
@@ -18,12 +19,12 @@
 
     鉴于此，SAP开发了一整套新的用户交互系统（UX)，叫做SAP Fiori。SAP Fiori的官方定义如下:
 
-    #+BEGIN_EXAMPLE
+    #+BEGIN_QUOTE
     SAP Fiori is the new user experience (UX) for SAP software that applies
     modern design principles. SAP solutions, such as the SAP Business Suite
     powered by SAP HANA, are using the SAP Fiori UX to provide a personalized,
     responsive, and simple user experience.
-    #+END_EXAMPLE
+    #+END_QUOTE
 
     抓住几个关键字， ~modern design principles~ 就是符合当前的前端设计潮流，比如简洁化、平面化， =personalized= 就是更个性化，更以用户为中心，每个用户的界面都
     是不一样的， =responsive= 可以自适应不同的终端， =simple user experience= 也是最终目的，让用户使用起来最简单，一目了然。现在最新发布的SAP第四代ERP产品SAP S/4 HANA就是完全基于SAP Fiori。
@@ -60,11 +61,11 @@
    下载tomcat地址：[[http://tomcat.apache.org/]]
    7.0或者8.0都可以，当然不管哪个版本，JDK都是需要的，自行下载并配置好环境，启动tomcat。
    如果一切运行正常的话，本地浏览器打开 http://localhost:8080 应该可以看到tomcat的界面。
-   #+CAPTION: Tomcat Web界面首页
+  #+ATTR_HTML: :alt Tomcat Web界面首页
    [[./images/tomcat.png]]
    
    在tomcat的webapps目录下创建一个目录，比如openui5，然后把之前下载的OPENUI5的SDK解压，扔到openui5目录下，目录结构类似 =<tomcat path>/webapps/openui5= ，此时打开 [[http://localhost:8080/openui5]]
-   #+CAPTION: OpenUI5 SDK首页
+  #+ATTR_HTML: :alt OpenUI5 SDK首页
    [[./images/openui5.png]]
 
    有了这个文档，基本上你就可以跟着上面的例子一步一步去练习了。在之后准备的一系列的入门教程中，很多内容也是来自于这份SDK文档。
@@ -136,7 +137,7 @@
   #+END_SRC
 
   好了，现在我们打开 http://localhost:8080/ex1 你将会看到以下：
-  #+CAPTION: 第一个练习Hello World
+  #+ATTR_HTML: :alt 第一个练习Hello World
   [[./images/ex1.png]]
 
   如果你看到上面的界面，恭喜你，我们完成了这趟UI5之旅的第一步。

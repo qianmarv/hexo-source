@@ -1,6 +1,6 @@
 #+TITLE: Hello Hexo
 #+AUTHOR: qianmarv
-#+DATE: 2015-05-27
+#+DATE: 2015-05-20
 #+LAYOUT: post
 #+TAGS: hexo
 #+CATEGORIES: 技术
