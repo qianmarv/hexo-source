@@ -8,6 +8,8 @@
 
 在UI5 SDK中的EXPLORER里面有着各种控件的用法，所以在这里也没有必要再来一遍，还是看官方的用法更地道。
 
+#+HTML: <!-- more -->
+
 看一下基于最新的库所推荐的项目结构。
 #+ATTR_HTML: alt: App Overview
 [[./images/App_overview.png]]

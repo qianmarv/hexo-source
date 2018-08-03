@@ -8,6 +8,8 @@
 什么是SAP Fiori？
 了解SAP UI5必须要从SAP Fiori开始，两者概念经常被混淆，而两者也确实有着非常紧密的关系。
 
+#+HTML: <!-- more -->
+
 * 扫盲
   - 什么是SAP Fiori？
 

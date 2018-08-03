@@ -91,6 +91,3 @@ org:
   daemonize: true
   emacsclient: 'emacsclient'
   cachedir: './hexo-org-cache/'
-  common: |
-    #+OPTIONS: toc:nil num:nil
-    #+BIND: org-html-postamble \"Last Update: %C.</br>\"
