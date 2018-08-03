@@ -64,7 +64,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: maupassant
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -86,9 +86,10 @@ keywords:
   - tech
 
 org:
-  emacs:
-    win32: 'C:\Tools\emacs\bin\emacs.exe'
-    darwin: '/Applications/Emacs.app/Contents/MacOS/Emacs'
+  emacs: 'emacs'
+  htmlize: true
+  daemonize: true
+  emacsclient: 'emacsclient'
   cachedir: './hexo-org-cache/'
   common: |
     #+OPTIONS: toc:nil num:nil
