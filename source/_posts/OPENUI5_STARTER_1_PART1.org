@@ -1,6 +1,6 @@
 #+TITLE: UI5入门系列之一：扫盲与热身（上）
 #+AUTHOR: QIANMARV
-#+DATE: 2015-07-23
+#+DATE: 2015-07-22
 #+CATEGORIES: 技术
 #+TAGS: sap ui5
 #+LAYOUT: post
